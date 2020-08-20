@@ -4,7 +4,8 @@ server:
 spring:
   application:
     name: department-service
-  profiles: local
+  profiles: 
+    active: local
   cloud:
     config:
       uri: http://localhost:8888
